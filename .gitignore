@@ -2,3 +2,12 @@
 db_data/
 .vscode/
 .DS_Store
+# ละเว้นไฟล์เชื่อมต่อฐานข้อมูลที่มี Username/Password จริง
+src/config/db.php
+
+# ละเว้นไฟล์ที่นักศึกษาอัปโหลดขึ้นมา
+src/uploads/*
+!src/uploads/.gitkeep
+
+# ละเว้นไฟล์ขยะของระบบปฏิบัติการ
+Thumbs.db
