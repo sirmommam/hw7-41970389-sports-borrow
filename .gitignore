@@ -1,0 +1,4 @@
+# ป้องกันโฟลเดอร์ Database หลุดขึ้น Git
+db_data/
+.vscode/
+.DS_Store

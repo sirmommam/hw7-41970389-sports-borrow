@@ -1,0 +1,6 @@
+# ใช้ PHP 8.2 พร้อม Apache
+FROM php:8.2-apache
+# ติดตั้ง Extension PDO และ MySQLi ให้พร้อมใช้งาน
+RUN apt-get update && docker-php-ext-install pdo pdo_mysql mysqli
+# เปิดใช้งาน mod_rewrite
+RUN a2enmod rewrite
